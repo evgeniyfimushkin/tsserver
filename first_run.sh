@@ -13,5 +13,5 @@ docker logs tsserver &> logs
 docker cp tsserver:/teamspeak-server_linux_amd64/tsserver.sqlitedb ./
 docker rm $(docker stop tsserver)
 docker compose up -d
-sleep 5
+sleep 8
 docker logs tsserver
