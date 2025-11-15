@@ -1,0 +1,16 @@
+services:
+  tsserver:
+    container_name: tsserver
+    image: evgeniyfimushkin/tsserver:0.99
+    build: .
+    ports: 
+      - "9987:9987/udp" 
+      - "30033:3033/tcp"
+    environment:
+      TSSERVER_LICENSE_ACCEPTED: "accept"
+    volumes:
+      - ./tsserver.sqlitedb:/teamspeak-server_linux_amd64/tsserver.sqlitedb
+    restart: always
+
+volumes:
+  tsserver:

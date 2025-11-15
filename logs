@@ -1,0 +1,23 @@
+2025-11-15 16:47:34.584938|INFO    |ServerLibPriv |   |TeamSpeak Server v6.0.0-beta7 (2025-10-20 09:34:57)
+2025-11-15 16:47:34.585150|INFO    |ServerLibPriv |   |SystemInformation: Linux 6.1.0-38-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.147-1 (2025-08-02) x86_64 Binary: 64bit
+2025-11-15 16:47:34.585679|INFO    |              |   |checking database integrity (may take a while)
+2025-11-15 16:47:34.594763|INFO    |SQL           |   |db_CreateTables() tables created
+
+------------------------------------------------------------------
+                      I M P O R T A N T                           
+------------------------------------------------------------------
+               Server Query Admin Account created                 
+         loginname= "serveradmin", password= "7tupzqS1"
+         apikey= "BAAvFMVGYdg5sWTzf3rPlybyKJF3gfY2SnTsmQ2"
+------------------------------------------------------------------
+
+2025-11-15 16:47:34.628817|INFO    |SQL           |   |updated permissions to version 25
+2025-11-15 16:47:34.631058|INFO    |SQL           |   |updated permissions to version 26
+2025-11-15 16:47:34.632611|WARNING |Accounting    |   |Unable to open /teamspeak-server_linux_amd64/licensekey.dat
+2025-11-15 16:47:34.632869|INFO    |Accounting    |   |Licensing Information
+2025-11-15 16:47:34.633022|INFO    |Accounting    |   |licensed to       : TeamSpeak Systems GmbH
+2025-11-15 16:47:34.633134|INFO    |Accounting    |   |type              : No License
+2025-11-15 16:47:34.633298|INFO    |Accounting    |   |starting date     : Wed Oct  1 00:00:00 2025
+2025-11-15 16:47:34.633402|INFO    |Accounting    |   |ending date       : Sun Feb  1 00:00:00 2026
+2025-11-15 16:47:34.633558|INFO    |Accounting    |   |max virtualservers: 1
+2025-11-15 16:47:34.633662|INFO    |Accounting    |   |max slots         : 32
