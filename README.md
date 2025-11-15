@@ -4,4 +4,6 @@
 
 Admin Token будет в выводе скрипта `first_run.sh`
 
+Обязательно сохранить admin user and password, а также token
+
 Дальнейшие запуски просто через `docker compose up -d`
